@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>365体育 · 日常查询与对照</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #f9f9f6;
+      font-family: 'SF Pro Text', 'PingFang SC', 'Microsoft YaHei', system-ui, -apple-system, sans-serif;
+      color: #1e2a2e;
+      line-height: 1.7;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    .page {
+      max-width: 720px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 28px;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.03), 0 2px 10px rgba(0, 20, 10, 0.04);
+      padding: 3rem 2.5rem 3.5rem;
+    }
+
+    @media (max-width: 500px) {
+      body { padding: 1rem 0.75rem 3rem; }
+      .page { padding: 2rem 1.25rem 2.5rem; border-radius: 20px; }
+    }
+
+    .tagline {
+      font-size: 0.85rem;
+      letter-spacing: 0.04em;
+      color: #6f8b7a;
+      text-transform: uppercase;
+      margin-bottom: 1.8rem;
+      border-left: 3px solid #b4cfb8;
+      padding-left: 1rem;
+      font-weight: 450;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 480;
+      letter-spacing: -0.01em;
+      color: #1e3b2a;
+      line-height: 1.2;
+      margin-bottom: 1.2rem;
+    }
+
+    .intro {
+      font-size: 1.05rem;
+      color: #2e4238;
+      background: #f4f7f2;
+      padding: 1.4rem 1.8rem;
+      border-radius: 20px;
+      margin: 1.8rem 0 2.2rem;
+    }
+
+    .intro p {
+      margin-bottom: 0.75rem;
+    }
+
+    .intro p:last-child {
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 450;
+      color: #1f3d2b;
+      margin: 2.6rem 0 1.2rem;
+      border-bottom: 1px solid #e2ece4;
+      padding-bottom: 0.5rem;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem 1.8rem;
+      margin: 1.5rem 0;
+    }
+
+    @media (max-width: 480px) {
+      .feature-grid { grid-template-columns: 1fr; }
+    }
+
+    .feature-item {
+      background: #fafcf9;
+      padding: 1rem 1.2rem;
+      border-radius: 16px;
+      border: 1px solid #e6efe7;
+    }
+
+    .feature-item strong {
+      display: block;
+      font-weight: 520;
+      color: #1f4a31;
+      font-size: 0.95rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .feature-item span {
+      font-size: 0.9rem;
+      color: #3b5a46;
+      line-height: 1.5;
+    }
+
+    .scene-block {
+      background: #f2f7f1;
+      padding: 1.6rem 1.8rem;
+      border-radius: 20px;
+      margin: 2rem 0;
+    }
+
+    .scene-block p {
+      margin-bottom: 0.9rem;
+      font-size: 0.98rem;
+    }
+
+    .scene-block p:last-of-type {
+      margin-bottom: 0;
+    }
+
+    .inline-link {
+      color: #1d6d3e;
+      text-decoration: none;
+      border-bottom: 1px solid #a3c9ae;
+      font-weight: 450;
+      transition: border-color 0.15s, color 0.15s;
+    }
+
+    .inline-link:hover {
+      border-bottom-color: #1d6d3e;
+      color: #0a4d27;
+    }
+
+    .faq-mini {
+      margin: 2.8rem 0 1.2rem;
+      border-top: 1px solid #e2ede2;
+      padding-top: 2rem;
+    }
+
+    .faq-mini p {
+      font-size: 0.95rem;
+      margin-bottom: 0.8rem;
+      padding-left: 0.5rem;
+      border-left: 2px solid transparent;
+    }
+
+    .faq-mini p strong {
+      font-weight: 520;
+      color: #1f3d2b;
+    }
+
+    .closing {
+      margin-top: 2.8rem;
+      padding: 1.5rem 0 0.2rem;
+      border-top: 1px solid #e2ede2;
+      font-size: 0.95rem;
+      color: #3b5543;
+      line-height: 1.6;
+    }
+
+    .closing a {
+      color: #1d6d3e;
+      text-decoration: none;
+      border-bottom: 1px solid #a3c9ae;
+    }
+
+    .closing a:hover {
+      border-bottom-color: #1d6d3e;
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+  <div class="tagline">查阅 · 对照 · 延伸</div>
+
+  <h1>日常查询中<br>一个朴素的参照点</h1>
+
+  <div class="intro">
+    <p>在体育信息与数据需求变得日益琐碎的时代，人们常常需要一个稳定、结构清晰的对照源。不是追逐热点，而是为了在翻阅时找到一条可追溯的线索。</p>
+    <p>它应当像一本翻旧了的参考手册——页面干净，条目分明，每一个数字或表述背后都有据可查。</p>
+  </div>
+
+  <h2>常见的使用场景</h2>
+  <div class="scene-block">
+    <p><strong>· 核对基本信息</strong><br>
+    当需要快速确认赛事阶段、队伍构成或某个统计口径时，打开一个信息层级分明的页面，能大大缩短查找时间。不必反复跳转，所有关键字段都在眼前铺开。</p>
+    <p><strong>· 横向参照阅读</strong><br>
+    同时查阅多个关联条目时，页面的排版密度和分类逻辑直接影响理解效率。一个好的参照页应该让人在扫视中就能完成比对，而不是在拥挤的表格里费力分辨。</p>
+    <p><strong>· 延伸索引</strong><br>
+    从一个条目出发，自然连接到相关主题——这是非线性的阅读习惯。此时，页面内嵌的链接与分栏结构就承担了「思维便签」的功能。</p>
+  </div>
+
+  <h2>特点速览</h2>
+  <div class="feature-grid">
+    <div class="feature-item">
+      <strong>条目化结构</strong>
+      <span>每个板块独立成组，减少视觉干扰，便于逐项对照。</span>
+    </div>
+    <div class="feature-item">
+      <strong>低视觉密度</strong>
+      <span>行距、留白与字号经过考量，适合长时间注视与反复查阅。</span>
+    </div>
+    <div class="feature-item">
+      <strong>中性用语</strong>
+      <span>不渲染、不夸张，只保留事实与可验证的表述。</span>
+    </div>
+    <div class="feature-item">
+      <strong>持续维护</strong>
+      <span>信息源保持更新，避免过时数据对判断的干扰。</span>
+    </div>
+  </div>
+
+  <div class="faq-mini">
+    <p><strong>Q：适合用来做什么？</strong> 日常的信息确认、交叉比对，或作为进一步查阅的起点。</p>
+    <p><strong>Q：信息可靠吗？</strong> 内容基于公开可查的赛事数据与规则整理，不包含主观推测，但建议同时参考原始来源。</p>
+    <p><strong>Q：可以直接引用吗？</strong> 建议在引用前先与官方或一手资料核对，尤其是涉及具体数字或规则表述时。</p>
+  </div>
+
+  <div class="closing">
+    <p>如果你在寻找一个可供日常翻阅、条目分明且语气平实的体育信息对照页，<a href="https://official-365sports.com" class="inline-link">365体育</a>或许能成为你书架上的那本常用手册。没有多余的装饰，只有清晰的分层与克制的表达。适合需要安静查阅的时刻。</p>
+    <p style="margin-top: 1.2rem; color: #6d8a78;">—— 一份安静、可反复翻阅的记录。</p>
+  </div>
+</div>
+</body>
+</html>
